@@ -65,9 +65,8 @@ public class PatternRecognitionService {
 		// for every point in the space
 		for (Point p : space) {
 
-			// System.out.println("p0:"+p);
+			
 			Set<Point> line = getLine(p, n);
-			// System.out.println("line:"+line);
 
 			if (!line.isEmpty())
 				lineSegments.add(line);
